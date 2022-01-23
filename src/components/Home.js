@@ -1,10 +1,12 @@
 import styled from "styled-components";
 import HomeBackground from '../assets/images/home-background.png';
 import ImgSlider from "./ImgSlider";
+import Viewers from "./Viewers";
 const Home = (props) => {
     return (
         <Container>
             <ImgSlider />
+            <Viewers />
         </Container>
     )
 }
