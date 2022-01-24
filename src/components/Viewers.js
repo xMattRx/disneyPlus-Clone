@@ -4,43 +4,23 @@ import marvel from '../assets/images/viewers-marvel.png';
 import national from '../assets/images/viewers-national.png';
 import pixar from '../assets/images/viewers-pixar.png';
 import starwars from '../assets/images/viewers-starwars.png';
-import DisneyVideo from '../assets/videos/disney.mp4';
-import MarvelVideo from '../assets/videos/marvel.mp4';
-import NationalVideo from '../assets/videos/national.mp4';
-import PixarVideo from '../assets/videos/pixar.mp4';
-import StarWarsVideo from '../assets/videos/stars.mp4';
 const Viewers = (props) => {
     return (
         <Container>
             <Wrap>
                 <img src={disney} />
-                <video autoPlay={true} muted={true} loop={true} playsInline={true}>
-                    <source src={DisneyVideo} type="video/mp4" />
-                </video>
             </Wrap>
             <Wrap>
                 <img src={marvel} />
-                <video autoPlay={true} muted={true} loop={true} playsInline={true}>
-                    <source src={MarvelVideo} type="video/mp4" />
-                </video>
             </Wrap>
             <Wrap>
                 <img src={national} />
-                <video autoPlay={true} muted={true} loop={true} playsInline={true}>
-                    <source src={NationalVideo} type="video/mp4" />
-                </video>
             </Wrap>
             <Wrap>
                 <img src={pixar} />
-                <video autoPlay={true} muted={true} loop={true} playsInline={true}>
-                    <source src={PixarVideo} type="video/mp4" />
-                </video>
             </Wrap>
             <Wrap>
                 <img src={starwars} />
-                <video autoPlay={true} muted={true} loop={true} playsInline={true}>
-                    <source src={StarWarsVideo} type="video/mp4" />
-                </video>
             </Wrap>
         </Container>
     )
@@ -81,29 +61,6 @@ const Wrap = styled.div`
         z-index:1;
         top: 0;
     }
-    video{
-        width:100%;
-        height: 100%;
-        position: absolute;
-        top: 0px;
-        opacity: 0;
-        z-index: 0;
-    }
-
-    &:hover{
-    box-shadow: rgb(0 0 0/ 80%) 0px 40px 58px -16px,
-    rgb(0 0 0/ 72%) 0px 30px 22px -10px;
-    
-    transform: scale(1.05);
-    border-color: rgb(249, 249, 249,0.8);
-    
-    video{
-        opacity: 1;
-    }
-
-}
 `
-
-
 
 export default Viewers;
