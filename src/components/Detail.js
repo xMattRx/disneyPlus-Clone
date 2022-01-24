@@ -22,7 +22,8 @@ const Detail = (props) => {
                         <span>Trailer</span>
                     </Trailer>
                     <AddList>
-                        <span></span>
+                        <span />
+                        <span />
                     </AddList>
                 </Controls>
             </ContentMeta>
@@ -152,7 +153,7 @@ span{
 
     &:nth-child(2){
         height: 16px;
-        transform: translateX(-8px) rotate()(0deg);
+        transform: translateX(-8px) rotate(0deg);
         width: 2px;
     }
 }
