@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { useHistory } from "react-router-dom";
+import { Link, useHistory } from 'react-router-dom';
 import styled from "styled-components";
 import homeIcon from '../assets/images/home-icon.svg';
 import logo from '../assets/images/logo.svg';
@@ -53,9 +53,11 @@ const Header = (props) => {
 
     return (
         <Nav>
-            <Logo>
-                <img src={logo} alt="Disney" />
-            </Logo>
+            <Link to="/home">
+                <Logo>
+                    <img src={logo} alt="Disney" />
+                </Logo>
+            </Link>
             {
                 !userName ?
                     (<Login onClick={handleAuth}>Login</Login>) : (<>
