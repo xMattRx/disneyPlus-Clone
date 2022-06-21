@@ -90,7 +90,7 @@ const Header = (props) => {
 
                         </NavMenu>
                         <SignOut>
-                            <UserImg src={userPhoto} alt={userName} />
+                            <UserImg src={`${userPhoto}`} alt={userName} />
                             <DropDown>
                                 <span onClick={handleAuth}>Sign out</span>
                             </DropDown>
