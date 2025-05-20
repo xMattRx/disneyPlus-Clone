@@ -1,72 +1,69 @@
-# Getting Started with Create React App
+# 📺 DisneyPlus Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clone da interface da plataforma **Disney+**, desenvolvido com **React** e integração com **Firebase** para deploy. Este projeto simula a experiência visual da plataforma de streaming, com foco em layout moderno, responsividade e prática de boas técnicas de desenvolvimento front-end.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧪 Tecnologias utilizadas
 
-### `npm start`
+- [React](https://reactjs.org/)
+- [Firebase](https://firebase.google.com/)
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Create React App](https://create-react-app.dev/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Como rodar o projeto localmente
 
-### `npm test`
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/xMattRx/disneyPlus-Clone.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Acesse a pasta do projeto:
+   ```bash
+   cd disneyPlus-Clone
+   ```
 
-### `npm run build`
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Acesse no navegador:
+   ```
+   http://localhost:3000
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🌐 Deploy
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Você pode visualizar a versão online em:  
+🔗 [disneyplus-clone-e82b6.firebaseapp.com](https://disneyplus-clone-e82b6.firebaseapp.com)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🎯 Funcionalidades
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Layout inspirado na interface original do Disney+
+- Componentização com React
+- Responsividade e compatibilidade com múltiplos dispositivos
+- Estrutura ideal para integração futura com APIs de catálogo de filmes
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📄 Licença
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Este projeto está sob a licença MIT.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# disneyPlus-Clone
-# disneyPlus-Clone
+Desenvolvido com ❤️ por [xMattRx](https://github.com/xMattRx) e [MatthewCompasso](https://github.com/MatthewCompasso)
